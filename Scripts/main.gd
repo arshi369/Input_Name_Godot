@@ -13,7 +13,7 @@ func _on_button_pressed():
 	if user_name == "":
 		message_label.text = "Try Again!"
 	else:
-		# اینجا اسم کاربر توی پیام نمایش داده می‌شه
+		# user name player ans massage welcoming 
 		message_label.text = user_name + " Welcome 🎉"
 	confirm_button.hide()
 	name_input.hide()
